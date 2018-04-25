@@ -1,0 +1,115 @@
+
+{
+"products": [
+    {
+        "id": 1,
+        "name": "Llama socks",
+        "categoryId": 1,
+        "price": 4.99,
+        "img": "https://www.uncommongoods.com/images/items/44700/44721_1_1200px.jpg",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 2,
+        "name": "Llama Del Rey",
+        "categoryId": 1,
+        "price": 19.99,
+        "img": "https://images.lookhuman.com/render/standard/2008085008567700/3600-athletic_gray-z1-t-llama-del-rey.jpg",
+        "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed faucibus bibendum eros. Vestibulum ipsum nunc, scelerisque eu dolor quis, gravida rhoncus neque."
+    },
+    {
+        "id": 3,
+        "name": "Llama Onesie",
+        "categoryId": 1,
+        "price": 9.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51lO1PXxgYL._UX562_.jpg",
+        "description": "Pellentesque ac ultrices sapien, ac vulputate elit. Quisque nunc orci, pretium at turpis ut, ullamcorper tristique felis. Nam dapibus accumsan ipsum, vitae varius ligula gravida sit amet."
+    },
+    {
+        "id": 4,
+        "name": "Llama Hoodie",
+        "categoryId": 1,
+        "price": 29.99,
+        "img": "https://img.etsystatic.com/il/625367/1109343108/il_570xN.1109343108_61ou.jpg?version=0",
+        "description": "Aliquam ultricies condimentum convallis. Nullam at mauris tellus. Nam vel sem convallis, elementum ante ut, interdum orci. Vestibulum imperdiet lacus vel ex placerat tristique. Ut nec magna ut felis auctor semper."
+    },
+    {
+        "id": 5,
+        "name": "Llama Chocolate",
+        "categoryId": 2,
+        "price": 3.99,
+        "img": "https://rlv.zcache.com/red_llama_love_emoji_milk_chocolate_bar-r863a1263b37b42c1afd65978ccc9e722_z6jed_260.jpg?rlvnet=1",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 6,
+        "name": "Llama Mug",
+        "categoryId": 2,
+        "price": 8.99,
+        "img": "https://i.pinimg.com/originals/5f/fa/e4/5ffae40a548b97258316144ece6f64a8.jpg",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 7,
+        "name": "Llama Plates",
+        "categoryId": 2,
+        "price": 6.99,
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQWaNPIqZO5YIh__DSmsRBzWa1C7b5ghwhDf0gE17IH_pFp5Bgow4DHlWkjmwo&usqp=CAE",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 8,
+        "name": "Llama Pinata",
+        "categoryId": 3,
+        "price": 14.99,
+        "img": "https://img.etsystatic.com/il/cf1ca0/1404176704/il_570xN.1404176704_rzp3.jpg?version=0",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 9,
+        "name": "Llama Mobile",
+        "categoryId": 3,
+        "price": 34.99,
+        "img": "https://img.etsystatic.com/il/ccaf86/1507702293/il_570xN.1507702293_5yle.jpg?version=0",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 10,
+        "name": "Stuffed Llama",
+        "categoryId": 3,
+        "price": 19.99,
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTTQrnh1nTkaZDzBDq-xcrOIETcHvYTWq2z71-jLvWm6WSm7mXE5Ig2F00meBwnbd6WGxGpIuN8&usqp=CAE",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 11,
+        "name": "Llama Dishtowel",
+        "categoryId": 2,
+        "price": 9.99,
+        "img": "https://i.pinimg.com/originals/f5/e7/e1/f5e7e1df7bbf9ff0df990689bdd2f903.jpg",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    },
+    {
+        "id": 12,
+        "name": "Llama Painting",
+        "categoryId": 3,
+        "price": 9.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/81RCyieuVrL._SY500_.jpg",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+    }
+],
+"categories":   [
+    {
+        "id": 1,
+        "name": "clothes"
+    },
+    {
+        "id": 2,
+        "name": "kitchen"
+    },
+    {
+        "id": 3,
+        "name": "decor"
+    }
+]
+}
