@@ -56,8 +56,9 @@ a:active{
   letter-spacing: .2em;
 }
 .logo:hover {
-  animation: logo-gallup infinite 1s ease-in-out ;
+  animation: logo-gallup .5s ease-in-out ;
   animation-direction: alternate;
+  animation-iteration-count: 2;
 }
 .logo {
   justify-self: center;
@@ -345,5 +346,5 @@ footer input {
     margin: 0 auto;
     padding: 2em 2em;
   }
-  
+
 }

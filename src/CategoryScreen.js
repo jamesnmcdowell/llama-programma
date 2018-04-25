@@ -3,7 +3,6 @@ import ProductList from './ProductList';
 import Header from './Header';
 import Footer from './Footer';
 import Shell from './Shell';
-
 import { connect } from 'react-redux';
 
 let CategoryScreen = ({ match, products }) =>
