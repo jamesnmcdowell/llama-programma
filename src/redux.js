@@ -6,19 +6,27 @@ const initialState = {
     products: data.products,
     categories: data.categories,
     users: [],
-    cart: []
+    cart: data.cart
 };
 
 let reducer = (oldState = initialState, action) => {
     console.log(oldState, action);
+    let { payload } = action;
+    let {cart } = oldState;
     switch (action.type) {
         case 'ADD_TO_CART': {
-            let tweets = oldState.tweets.concat(['action.payload']);
-            return { ...oldState, tweets: action.payload };
-            break;
-        }
-        case 'REPLACE_DATA': {
-            return { ...oldState, tweets: action.tweetsArr, users: action.usersArr };
+            let productMatch = cart.find((product) => product.id === payload.id);
+            let productsNotMatch = cart.filter((product) => product.id !== payload.id);
+            let newCart;
+            if (productMatch) {
+                let productMod = { ...payload, quantity: productMatch.quantity + 1};
+                newCart = productsNotMatch.concat([productMod]);
+            }
+            else {
+                let productMod = { ...payload, quantity: 1 };
+                newCart = cart.concat([productMod]);
+            }
+            return { ...oldState, cart: newCart };
             break;
         }
         default:
@@ -36,12 +44,6 @@ let mapStateToProps = (state) => {
 let mapDispatchToProps = (dispatch) => {
     return { dispatch: dispatch };
 };
-
-
-// let TweetListState = connect(
-//     mapStateToProps
-// )(TweetList);
-
 
 export default store;
 

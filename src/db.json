@@ -111,5 +111,25 @@
         "id": 3,
         "name": "decor"
     }
+],
+"cart": [
+    {
+        "id": 1,
+        "name": "Llama socks",
+        "categoryId": 1,
+        "price": 4.99,
+        "img": "https://www.uncommongoods.com/images/items/44700/44721_1_1200px.jpg",
+        "description": "Sed vel aliquam tellus. Fusce nunc purus, accumsan quis magna vel, luctus rutrum ipsum. Curabitur eget fringilla justo, ut ornare nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "quantity": 3
+    },
+    {
+        "id": 3,
+        "name": "Llama Onesie",
+        "categoryId": 1,
+        "price": 9.99,
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51lO1PXxgYL._UX562_.jpg",
+        "description": "Pellentesque ac ultrices sapien, ac vulputate elit. Quisque nunc orci, pretium at turpis ut, ullamcorper tristique felis. Nam dapibus accumsan ipsum, vitae varius ligula gravida sit amet.",
+        "quantity": 1
+    }
 ]
 }

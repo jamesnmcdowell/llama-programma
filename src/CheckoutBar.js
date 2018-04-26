@@ -1,25 +1,25 @@
 import React from 'react';
 
-let CheckoutBar = () =>
+let CheckoutBar = ({total}) =>
     <div className="checkout-bar">
         <p> Checkout Summary </p>
         <div className="br"/>
         <div className="flex-between"> 
             <p> Subtotal </p>
-            <p> $400 </p>
+            <p> ${(total.sum).toFixed(2)} </p>
         </div>
         <div className="flex-between">
             <p> Shipping </p>
-            <p> $10 </p>
+            <p>{total.shipping > 0 ? "$" + (total.shipping).toFixed(2) : "Free"} </p>
         </div>
         <div className="flex-between">
             <p> Sales Tax </p>
-            <p> $20 </p>
+            <p> ${(total.tax).toFixed(2)} </p>
         </div>
         <div className="br" />
         <div className="flex-between">
             <p> Estimated Total </p>
-            <p> $430 </p>
+            <p> ${(total.sum + total.shipping + total.tax).toFixed(2) } </p>
         </div>
         <div className="br" />
         <button> Checkout </button>

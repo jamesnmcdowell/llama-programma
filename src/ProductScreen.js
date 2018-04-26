@@ -2,9 +2,11 @@ import React from 'react';
 import Header from './Header';
 import Shell from './Shell';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux'
+
 import RelatedProducts from './RelatedProducts';
 
-let ProductScreen = ({ match, product, relatedProducts}) => 
+let ProductScreen = ({ match, product, relatedProducts, dispatch}) => 
     <Shell>
         <div className="product-s-wrapper">
             <div className="product-s-gallery">
@@ -16,7 +18,7 @@ let ProductScreen = ({ match, product, relatedProducts}) =>
                 <div className="br"/>
                 <span className="product-s-description">{product.description} </span>
                 <div className="br" />
-                <button className="product-s-button-cart" > Add to Cart </button>
+                <button onClick={() => dispatch({type: "ADD_TO_CART", payload:product})} className="product-s-button-cart" > Add to Cart </button>
             </div>  
             <RelatedProducts relatedProducts={relatedProducts} />            
         </div>
@@ -32,10 +34,24 @@ let mapStateToProps = (state, props) => {
     return { product: product, relatedProducts: relatedProducts };
 };
 
+let mapDispatchToProps = (dispatch) => {
+    return { dispatch: dispatch};
+};
+
+// let mapDispatchToProps = dispatch =>
+//     bindActionCreators({
+//         addToCart
+//     }, dispatch);
+
 let ProductScreenState = connect(
-    mapStateToProps
+    mapStateToProps,
+    mapDispatchToProps
 )(ProductScreen);
 
 export default ProductScreenState;
+
+
+
+
 
 

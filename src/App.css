@@ -56,7 +56,7 @@ a:active{
   letter-spacing: .2em;
 }
 .logo:hover {
-  animation: logo-gallup .5s ease-in-out ;
+  animation: logo-gallup .2s ease-in-out ;
   animation-direction: alternate;
   animation-iteration-count: 2;
 }
@@ -105,8 +105,10 @@ a:active{
 
 
 @keyframes logo-gallup {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(10deg); }
+  /* from { transform: rotate(0deg); }
+  to { transform: rotate(10deg); } */
+  from { transform: translateY(0px) }
+  to { transform: translateY(-5px)  }
 }
 
 
@@ -160,6 +162,8 @@ a:active{
 .product-s-button-cart:active { 
   transform: translate(0, 2px);
 }
+
+
 .product-s-suggestions {
   grid-area: suggestions;
   display:grid;
@@ -191,13 +195,28 @@ form input {
 }
 
 .cart-screen {
- 
   display: grid;
   grid-template-columns: 1fr 400px;
 }
 .cart-list {
   padding: 2em;
- 
+}
+.cart-name {
+  font-weight: 600;
+}
+.cart-info {
+}
+.cart-price, .cart-total {
+  justify-self: right;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+}
+.cart-item img {
+  width: 100%;
 }
 
 .checkout-bar {
@@ -222,6 +241,11 @@ form input {
 .checkout-bar button {
   margin-top: 20px;
 }
+
+
+
+
+
 
 .homepage-grid {
   display: grid;
@@ -301,6 +325,10 @@ footer input {
   margin-left: 10px;
   padding: 5px 20px;
 }
+
+
+
+
 
 
 /* sticky footer */
