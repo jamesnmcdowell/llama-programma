@@ -5,13 +5,6 @@
 ![llama-programma](https://user-images.githubusercontent.com/19500679/39281232-97c4f054-48d1-11e8-8616-e66cc6793783.jpg)
 
 ---
-
-## Table of Contents
-- [Setup](#setup)
-- [Libraries/APIs](#external)
-- [License](#license)
-
----
 ## Setup
 ```shell
 $ git clone git@github.com:jamesnmcdowell/llama-programma.git
