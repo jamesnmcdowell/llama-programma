@@ -1,6 +1,6 @@
 # Llama Programma
 
-> Llama Programma is a fullstack JavaScript ecommerce web app built with react, redux, css grid/flexbox, and node.
+> Llama Programma is a full stack JavaScript eCommerce web app built with react, redux, css grid/flexbox, and node.
 
 ![llama-programma](https://user-images.githubusercontent.com/19500679/39281232-97c4f054-48d1-11e8-8616-e66cc6793783.jpg)
 
