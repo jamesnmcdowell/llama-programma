@@ -256,17 +256,33 @@ form input {
 
 }
 .hero {
-  background-color: red;
-  grid-column: auto / span 4;
-  grid-row: auto / span 4;
-  height: 50vh;
-}
+  background-color:white;
+  display: grid;
+  grid-column: auto / span 2;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0 1em;
 
+}
+.hero h1 {
+  line-height: 1.5em;
+  font-size: 20px;
+  }
 .hgrid-1 {
-   grid-column: auto / span 2;
+  grid-column: auto / span 2;
+  object-fit: cover;
+  height: 100%;
+}
+.hgrid-2 {
+  grid-column: auto / span 2;
+  object-fit: cover;
+  height: 100%;
 }
 .homepage-grid img{
-   width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
 
@@ -357,6 +373,12 @@ footer input {
 
 
 @media (min-width: 800px) {
+
+  .hero h1 {
+  line-height: 1.5em;
+  font-size: 40px;
+  } 
+
   .nav-bar {
     display: grid;
     grid-template-areas: "menu-links logo action-links"; 
